@@ -5,7 +5,7 @@ This project uses a Raspberry Pi and two lasers to count the number of objects w
 The following is the circuit schematic to process the signal produced by a photodiode using an op-amp and voltage comparator. Since two lasers were used for this project, this circuit was duplicated on the other side of the breadboard.
 ![Circuit Schematic](images/schematic.jpg) 
 
-# Inputs and Output
+# Inputs and Outputs
 Once executed, the code reads through a configuration file, such as:
 ![Sample Config File](images/config.jpg)
 
