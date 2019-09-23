@@ -1,9 +1,17 @@
 # Summary
 This project uses a Raspberry Pi and two lasers to count the number of objects which have entered or exited a room. The main file was implemented with C and includes several GPIO classes as defined in the included header files.
 
-# Schematics
+# Hardware
 The following is the circuit schematic to process the signal produced by a photodiode using an op-amp and voltage comparator. Since two lasers were used for this project, this circuit was duplicated on the other side of the breadboard.
 ![Circuit Schematic](images/schematic.jpg) 
+
+## Equipment used:
+- 1 Raspberry Pi Zero
+- 1 Operational Amplifier
+- 1 Voltage Comparator
+- 2 Red lasers
+- 2 Photodiodes
+- 1 9 Volt battery
 
 # Inputs and Outputs
 Once executed, the code reads through a configuration file, such as:
